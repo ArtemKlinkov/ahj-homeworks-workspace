@@ -6,3 +6,6 @@ const characters = [
 ];
 
 const alive = characters.filter((item) => item.health > 0);
+
+// eslint-disable-next-line no-console
+console.log(alive);
